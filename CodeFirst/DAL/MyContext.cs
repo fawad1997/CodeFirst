@@ -10,7 +10,7 @@ namespace CodeFirst.DAL
 {
     public class MyContext : DbContext
     {
-        MyContext() : base("MyConString")
+        public MyContext() : base("MyConString")
         {
         }
         public DbSet<Order> Order { get; set; }

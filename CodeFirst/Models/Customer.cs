@@ -8,7 +8,7 @@ namespace CodeFirst.Models
 {
     public class Customer
     {
-        Customer()
+        public Customer()
         {
             Orders = new List<Order>();
         }
